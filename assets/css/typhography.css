@@ -1,0 +1,91 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mi.woff2') format('woff2');
+}
+
+@font-face{
+	font-family: 'roboto';
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: 'roboto-condensed';
+	src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.4em;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+*{
+	font-family: 'roboto',serif;
+}
+html{
+	font-size: 1em; //16px
+}
+nav,
+.service-title,
+.about-title,
+.skill-title{
+	font-family: 'roboto-condensed', 'roboto', serif;
+}
+
+.skill-title{
+  font-size: 1.3rem;
+}
+
+.skill-card .skill-card-icon{
+  font-size: 4.5rem;
+}
+.progress-content{
+  font-size: 0.65rem;
+}
+#exp .exp-card .exp-card-title {
+  font-size: 1.2rem;
+}
+#exp .exp-card .exp-card-title span{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#exp .exp-card .exp-card-badge{
+  font-size: 0.7rem ;
+}
+#exp .exp-card .exp-card-info i{
+  font-size: 1rem;
+}
+#contact .contact-form .form-group i{
+  font-size: 1.2rem;
+}
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea,
+#contact .contact-form .form-group .btn,{
+  font-size: 1.01rem;
+}
+#contact .contact-form .form-group .btn i{
+  font-size: 1rem;
+}
+
+
+#contact .contact-info-email a,
+#contact .contact-info-phone a,
+#contact .contact-info-address a{
+  font-size: 1.06rem;
+}
+
+#contact .contact-info-icon a{
+  font-size: 2rem;
+}
